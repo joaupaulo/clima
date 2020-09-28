@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap');
+
+
+body{
+    background-image: url("./imagem/vuando.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    color: blanchedalmond;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+font-size: 80px;
+font-weight: 700;
+
+}
+
+input{
+    border: 3px;
+    border-color: black;
+    border-style: groove;
+    margin: 0 auto;
+    }
+
+    
+    .local{
+        padding-top: 0px;
+    }
+
+    .temperatura {
+        padding-bottom: 30px;
+    }
